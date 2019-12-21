@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="skin.lyrebird.rmod" name="Lyrebird rmod" version="1.0.0-a2" provider-name="Randall">
+    <requires>
+        <import addon="xbmc.gui" version="5.14.0"/>
+        <import addon="resource.images.studios.white" version="0.0.6"/>
+        <import addon="script.skinshortcuts" version="1.0.17"/>
+        <import addon="script.toolbox" version="1.0.0"/>
+    </requires>
+    <extension point="xbmc.gui.skin" debugging="false" effectslowdown="0.75">
+        <res width="1920" height="1080" aspect="16:9" default="true" folder="1080i" />
+    </extension>
+    <extension point="kodi.context.item">
+      	<menu id="kodi.core.main">
+      	<!-- 
+      		<item library="scripts/context_menu_jumptoletter.py">
+ 				<label>$LOCALIZE[40165]</label>
+ 				<visible>!String.IsEmpty(Window(home).Property(CurrentSkin)) + [String.IsEqual(ListItem.dbtype,movie) | String.IsEqual(ListItem.dbtype,set) | String.IsEqual(ListItem.dbtype,tvshow) | String.IsEqual(ListItem.dbtype,artist) | String.IsEqual(ListItem.dbtype,album) | String.IsEqual(ListItem.dbtype,musicvideo) | Container.Content(addons)] + !Window.IsVisible(Home)</visible>
+ 			</item>
+      		<item library="scripts/context_menu_moviessets.py">
+ 				<label>$LOCALIZE[40181]</label>
+ 				<visible>!String.IsEmpty(Window(home).Property(CurrentSkin)) + String.IsEqual(ListItem.DBType,set) + !Window.IsVisible(Home)</visible>
+ 			</item>
+ 			-->
+      		<item library="scripts/context_menu_extendedinfo.py">
+        		<label>$LOCALIZE[40182]</label>
+        		<visible>System.HasAddon(script.extendedinfo) + [String.IsEqual(ListItem.dbtype,movie) | String.IsEqual(ListItem.dbtype,tvshow) | String.IsEqual(ListItem.dbtype,season) | String.IsEqual(ListItem.dbtype,actor) | String.IsEqual(ListItem.dbtype,director)]</visible>
+      		</item>
+    	</menu>
+ 	</extension>
+    
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_AU">Lyrebird rmod</summary>
+        <summary lang="en_GB">Lyrebird rmod</summary>
+        <summary lang="en_NZ">Lyrebird rmod</summary>
+        <summary lang="en_US">Lyrebird rmod</summary>
+        <description lang="en_AU">Randalls Mod of Lyrebird</description>
+        <description lang="en_GB">Randalls Mod of Lyrebird</description>
+        <description lang="en_NZ">Randalls Mod of Lyrebird</description>
+        <description lang="en_US">Randalls Mod of Lyrebird</description>
+        <platform>all</platform>
+        <license>CC BY-NC-SA 4.0</license>
+        <forum>http://forum.kodi.tv/forumdisplay.php?fid=218</forum>
+        <website></website>
+        <email></email>
+        <!-- <source>https://github.com/rufoo/skin.lyrebird</source>-->
+        <assets>
+            <icon>resources/icon.png</icon>
+            <fanart>resources/fanart.jpg</fanart>
+            <screenshot>resources/screenshot-01.jpg</screenshot>
+            <screenshot>resources/screenshot-02.jpg</screenshot>
+            <screenshot>resources/screenshot-03.jpg</screenshot>
+            <screenshot>resources/screenshot-04.jpg</screenshot>
+            <screenshot>resources/screenshot-05.jpg</screenshot>
+            <screenshot>resources/screenshot-06.jpg</screenshot>
+            <screenshot>resources/screenshot-07.jpg</screenshot>
+            <screenshot>resources/screenshot-08.jpg</screenshot>
+            <screenshot>resources/screenshot-09.jpg</screenshot>
+            <screenshot>resources/screenshot-10.jpg</screenshot>
+        </assets>
+        <news></news>
+    </extension>
+</addon>
