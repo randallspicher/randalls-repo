@@ -1,0 +1,2 @@
+1.0.0-r4
+* update topnav to reintroduce the now-playing info, and move progress bar to a better spot
