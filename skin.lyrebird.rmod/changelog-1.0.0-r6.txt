@@ -1,0 +1,9 @@
+1.0.0-r6
+* add new alternate music visualzation screen to better display cover, plus some cleanups.
+
+1.0.0-r5
+* some updates to music OSD, artist slideshow playing nice when combined with visualizations
+
+1.0.0-r4
+* update topnav to reintroduce the now-playing info, and move progress bar to a better spot
+
