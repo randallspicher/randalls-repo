@@ -1,0 +1,5 @@
+v0.8.4
+- add in NOAA weather alerts
+
+v0.8.3 
+- initial release
