@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<addon id="skin.lyrebird.rmod" name="Lyrebird rmod" version="1.0.0-r20" provider-name="Randall">
+<addon id="skin.lyrebird.rmod" name="Lyrebird rmod" version="1.0.0-r21" provider-name="Randall">
     <requires>
         <import addon="xbmc.gui" version="5.14.0"/>
         <import addon="resource.images.studios.white" version="0.0.6"/>
