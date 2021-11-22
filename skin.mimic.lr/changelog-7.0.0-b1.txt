@@ -1,2 +1,0 @@
-7.0.0
-* rename, and bump version to 7 to keep it inline with the next "Mimic" number
